@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    justify-content:flex-start;
+}
+nav>ul{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style: no;
+}
+nav>li{
+}
+a{
+    margin-left: 50px;
+}
