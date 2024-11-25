@@ -78,7 +78,7 @@ main{
     display: flex;
     flex-direction: row;
     padding: 20px;
-    background-color: dimgray;
+    background-color: rgb(173, 173, 173);
     width: 80%;
     border-radius: 15px;
 }
