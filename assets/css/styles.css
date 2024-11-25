@@ -1,14 +1,29 @@
 nav{
     display: flex;
     justify-content:flex-start;
+    align-items: center;
 }
 nav>ul{
     padding: 10px;
     display: flex;
     flex-direction: row;
-    list-style: no;
+    list-style: none;
 }
 nav>li{
+}
+#pesquisa{
+    display: flex;
+    margin-left: 30%;
+    border: none;
+}
+#pesquisa > input{ /*Barra de pesquisa*/
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+}
+#pesquisa > button{ /*Botão de pesquisa*/
+    border: none;
+    border-radius: 5px;
 }
 a{
     margin-left: 50px;
