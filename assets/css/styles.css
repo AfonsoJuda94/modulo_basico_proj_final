@@ -21,7 +21,7 @@ nav a{
    color: darkslategrey;
    font-weight: bold;
    padding: 10px;
-   margin-left: 20px;
+   
 }
 nav a:hover{
     background-color: rgba(231, 231, 222, 0.411);
@@ -29,13 +29,13 @@ nav a:hover{
 }
 #pesquisa{
     display: flex;
-    margin-left: 30%;
     border: none;
+    height: auto;
+    margin-left: 40%;
 }
 #pesquisa > input{ /*Barra de pesquisa*/
     border-radius: 10px;
     border: none;
-    margin-right: 10px;
 }
 #pesquisa > button{ /*Botão de pesquisa*/
     border: none;
@@ -78,12 +78,13 @@ main{
     display: flex;
     flex-direction: row;
     padding: 20px;
+    
     background-color: rgb(173, 173, 173);
     width: auto;
     border-radius: 15px;
 }
 .generos a{
-    margin-left: 10px;
+    margin-left: 5px;
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
@@ -100,7 +101,8 @@ main{
     display: flex;
     flex-direction: row;
     /*overflow-x: scroll;*/
-    width: 70%;
+    min-width: 75%;
+    max-width: 100%;
     list-style: none;
     background-color: rgb(3, 31, 28);
     padding: 15px;
@@ -143,4 +145,19 @@ main{
 }
 .pessoa_2{
     background-color: rgb(240, 168, 61);
+}
+/*--------------------------------- Contato --------------------------------------------*/
+#contato{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: mediumseagreen;
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    align-items: center;
+}
+#contato button{
+    width: 20%;
 }
