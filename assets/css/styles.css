@@ -63,7 +63,7 @@ footer li{
 }
 footer a{
     color: white;
-    text-decoration: none;
+    
 }
 /*---------------------------------------------Livros -----------------------------------------*/
 main{
@@ -119,4 +119,26 @@ main{
     max-height: 200px;
     border-radius: 10px;
     margin: auto;
+}
+/*-----------------------------------------Fórum-------------------------------------------*/
+#forum{
+    background-color: white;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 10px solid rgb(11, 83, 83) ;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+#forum p{
+    padding: 10px;
+    border-radius: 10px;
+}
+.pessoa_1{
+    background-color: rgb(154, 165, 52);
+}
+.pessoa_2{
+    background-color: rgb(240, 168, 61);
 }
