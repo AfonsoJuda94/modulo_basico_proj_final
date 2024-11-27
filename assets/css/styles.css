@@ -131,6 +131,8 @@ main{
     align-items:flex-start;
     flex-direction: column;
     margin-bottom: 5%;
+    width: 80%;
+    margin-left: 10%;
 }
 #forum p{
     padding: 10px;
